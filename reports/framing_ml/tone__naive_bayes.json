@@ -1,0 +1,140 @@
+{
+  "task_name": "tone",
+  "label_col": "tone_label_gt",
+  "task_type": "multiclass",
+  "model_name": "naive_bayes",
+  "text_col": "text_ml",
+  "best_config": {
+    "ngram_range": [
+      1,
+      2
+    ],
+    "max_features": 10000,
+    "min_df": 2,
+    "C": 1.0,
+    "alpha": 0.5
+  },
+  "val_metrics": {
+    "accuracy": 0.5684210526315789,
+    "macro_f1": 0.35923559289214585,
+    "macro_precision": 0.8481481481481481,
+    "macro_recall": 0.40404040404040403
+  },
+  "test_metrics": {
+    "accuracy": 0.5520833333333334,
+    "macro_f1": 0.349947628104413,
+    "macro_precision": 0.6777777777777777,
+    "macro_recall": 0.3950154607297464
+  },
+  "search_results": [
+    {
+      "model_name": "naive_bayes",
+      "label_col": "tone_label_gt",
+      "task_type": "multiclass",
+      "params": {
+        "ngram_range": [
+          1,
+          1
+        ],
+        "max_features": 10000,
+        "min_df": 2,
+        "C": 1.0,
+        "alpha": 0.5
+      },
+      "train_metrics": {
+        "accuracy": 0.7155756207674944,
+        "macro_f1": 0.6373322403237861,
+        "macro_precision": 0.8816901408450705,
+        "macro_recall": 0.6027337246999036
+      },
+      "val_metrics": {
+        "accuracy": 0.5157894736842106,
+        "macro_f1": 0.22685185185185186,
+        "macro_precision": 0.17192982456140352,
+        "macro_recall": 0.3333333333333333
+      }
+    },
+    {
+      "model_name": "naive_bayes",
+      "label_col": "tone_label_gt",
+      "task_type": "multiclass",
+      "params": {
+        "ngram_range": [
+          1,
+          1
+        ],
+        "max_features": 10000,
+        "min_df": 2,
+        "C": 1.0,
+        "alpha": 1.0
+      },
+      "train_metrics": {
+        "accuracy": 0.5349887133182845,
+        "macro_f1": 0.27399681370108536,
+        "macro_precision": 0.5088122605363985,
+        "macro_recall": 0.3569321533923304
+      },
+      "val_metrics": {
+        "accuracy": 0.5157894736842106,
+        "macro_f1": 0.22685185185185186,
+        "macro_precision": 0.17192982456140352,
+        "macro_recall": 0.3333333333333333
+      }
+    },
+    {
+      "model_name": "naive_bayes",
+      "label_col": "tone_label_gt",
+      "task_type": "multiclass",
+      "params": {
+        "ngram_range": [
+          1,
+          2
+        ],
+        "max_features": 10000,
+        "min_df": 2,
+        "C": 1.0,
+        "alpha": 0.5
+      },
+      "train_metrics": {
+        "accuracy": 0.8216704288939052,
+        "macro_f1": 0.7987001204304653,
+        "macro_precision": 0.9145021645021645,
+        "macro_recall": 0.7525920733666287
+      },
+      "val_metrics": {
+        "accuracy": 0.5684210526315789,
+        "macro_f1": 0.35923559289214585,
+        "macro_precision": 0.8481481481481481,
+        "macro_recall": 0.40404040404040403
+      }
+    },
+    {
+      "model_name": "naive_bayes",
+      "label_col": "tone_label_gt",
+      "task_type": "multiclass",
+      "params": {
+        "ngram_range": [
+          1,
+          2
+        ],
+        "max_features": 10000,
+        "min_df": 2,
+        "C": 1.0,
+        "alpha": 1.0
+      },
+      "train_metrics": {
+        "accuracy": 0.5914221218961625,
+        "macro_f1": 0.40861758177780355,
+        "macro_precision": 0.8528455284552846,
+        "macro_recall": 0.4334822862817256
+      },
+      "val_metrics": {
+        "accuracy": 0.5157894736842106,
+        "macro_f1": 0.22685185185185186,
+        "macro_precision": 0.17192982456140352,
+        "macro_recall": 0.3333333333333333
+      }
+    }
+  ],
+  "model_path": "/models/framing_ml/tone__naive_bayes.joblib"
+}

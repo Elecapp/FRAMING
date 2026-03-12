@@ -1,0 +1,14 @@
+{
+  "loc_path": "/data/processed/LOC_v2_event_detection.csv",
+  "loc_preprocessed_path": "/data/processed/LOC_v2_preprocessed.csv",
+  "output_path": "/data/processed/LOC_v2_framing_ml.csv",
+  "n_loc_total": 3295,
+  "n_loc_positive": 318,
+  "n_fas_overlap_removed": 76,
+  "n_inference": 242,
+  "final_models": {
+    "victim_blaming": "logreg",
+    "perpetrator_justification": "logreg",
+    "tone": "logreg"
+  }
+}

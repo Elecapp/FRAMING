@@ -1,0 +1,5 @@
+{
+  "victim_blaming": "logreg",
+  "perpetrator_justification": "logreg",
+  "tone": "logreg"
+}

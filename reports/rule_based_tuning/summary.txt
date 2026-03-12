@@ -1,0 +1,43 @@
+======================================================================
+RULE-BASED PARAMETER TUNING — SUMMARY
+======================================================================
+
+SELECTED PARAMETERS
+----------------------------------------------------------------------
+  VB    regex  : {'char_limit': 3000, 'max_sentences': 20, 'sent_threshold': 0.5, 'article_ratio': 0.05}
+  VB    spaCy  : {'char_limit': 3000, 'max_sentences': 20, 'sent_threshold': 0.5, 'article_ratio': 0.05}
+  VB    Stanza : {'char_limit': 3000, 'max_sentences': 20, 'sent_threshold': 0.5, 'article_ratio': 0.05}
+  PJ    regex  : {'char_limit': 4000, 'max_sentences': 20, 'sent_threshold': 0.5, 'article_ratio': 0.05}
+  PJ    spaCy  : {'char_limit': 4000, 'max_sentences': 20, 'sent_threshold': 0.5, 'article_ratio': 0.05}
+  PJ    Stanza : {'char_limit': 2000, 'max_sentences': 20, 'sent_threshold': 0.5, 'article_ratio': 0.05}
+  Tone-emo  regex  : {'char_limit': 4000, 'max_sentences': 20, 'sent_threshold': 0.7, 'article_ratio': 0.05}
+  Tone-emo  spaCy  : {'char_limit': 4000, 'max_sentences': 20, 'sent_threshold': 0.7, 'article_ratio': 0.05}
+  Tone-emo  Stanza : {'char_limit': 4000, 'max_sentences': 40, 'sent_threshold': 0.7, 'article_ratio': 0.05}
+  Tone-sens regex  : {'char_limit': 4000, 'max_sentences': 40, 'sent_threshold': 0.5, 'article_ratio': 0.05}
+  Tone-sens spaCy  : {'char_limit': 4000, 'max_sentences': 40, 'sent_threshold': 0.5, 'article_ratio': 0.05}
+  Tone-sens Stanza : {'char_limit': 4000, 'max_sentences': 40, 'sent_threshold': 0.5, 'article_ratio': 0.05}
+
+VICTIM BLAMING PERFORMANCE
+----------------------------------------------------------------------
+  regex            F1=0.171  P=0.300  R=0.120  Acc=0.771
+  spacy            F1=0.162  P=0.292  R=0.112  Acc=0.771
+  stanza           F1=0.171  P=0.300  R=0.120  Acc=0.771
+  majority_vote    F1=0.162  P=0.292  R=0.112  Acc=0.771
+
+PERPETRATOR JUSTIFICATION PERFORMANCE
+----------------------------------------------------------------------
+  regex            F1=0.491  P=0.417  R=0.596  Acc=0.574
+  spacy            F1=0.497  P=0.417  R=0.615  Acc=0.573
+  stanza           F1=0.486  P=0.438  R=0.546  Acc=0.603
+  majority_vote    F1=0.488  P=0.415  R=0.592  Acc=0.573
+
+TONE PERFORMANCE (macro)
+----------------------------------------------------------------------
+  regex            F1=0.436  P=0.454  R=0.437  Acc=0.508
+  spacy            F1=0.437  P=0.456  R=0.438  Acc=0.509
+  stanza           F1=0.436  P=0.455  R=0.438  Acc=0.505
+  majority_vote    F1=0.436  P=0.454  R=0.437  Acc=0.508
+
+======================================================================
+TUNING COMPLETED
+======================================================================

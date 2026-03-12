@@ -1,0 +1,155 @@
+{
+  "task_name": "victim_blaming",
+  "label_col": "victim_blaming_gt",
+  "task_type": "binary",
+  "model_name": "transfinn",
+  "text_col": "text_ml",
+  "best_config": {
+    "ngram_range": [
+      1,
+      1
+    ],
+    "max_features": 10000,
+    "min_df": 2,
+    "hidden_dim": 512,
+    "dropout": 0.4,
+    "lr": 0.0005,
+    "epochs": 30,
+    "batch_size": 32
+  },
+  "val_metrics": {
+    "precision": 0.4375,
+    "recall": 0.3888888888888889,
+    "f1": 0.4117647058823529,
+    "accuracy": 0.7894736842105263
+  },
+  "test_metrics": {
+    "precision": 0.2777777777777778,
+    "recall": 0.3333333333333333,
+    "f1": 0.30303030303030304,
+    "accuracy": 0.7604166666666666
+  },
+  "search_results": [
+    {
+      "model_name": "transfinn",
+      "label_col": "victim_blaming_gt",
+      "task_type": "binary",
+      "params": {
+        "ngram_range": [
+          1,
+          1
+        ],
+        "max_features": 10000,
+        "min_df": 2,
+        "hidden_dim": 256,
+        "dropout": 0.3,
+        "lr": 0.001,
+        "epochs": 20,
+        "batch_size": 32
+      },
+      "train_metrics": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "accuracy": 1.0
+      },
+      "val_metrics": {
+        "precision": 0.35294117647058826,
+        "recall": 0.3333333333333333,
+        "f1": 0.34285714285714286,
+        "accuracy": 0.7578947368421053
+      }
+    },
+    {
+      "model_name": "transfinn",
+      "label_col": "victim_blaming_gt",
+      "task_type": "binary",
+      "params": {
+        "ngram_range": [
+          1,
+          2
+        ],
+        "max_features": 10000,
+        "min_df": 2,
+        "hidden_dim": 256,
+        "dropout": 0.3,
+        "lr": 0.001,
+        "epochs": 20,
+        "batch_size": 32
+      },
+      "train_metrics": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "accuracy": 1.0
+      },
+      "val_metrics": {
+        "precision": 0.21428571428571427,
+        "recall": 0.16666666666666666,
+        "f1": 0.1875,
+        "accuracy": 0.7263157894736842
+      }
+    },
+    {
+      "model_name": "transfinn",
+      "label_col": "victim_blaming_gt",
+      "task_type": "binary",
+      "params": {
+        "ngram_range": [
+          1,
+          1
+        ],
+        "max_features": 10000,
+        "min_df": 2,
+        "hidden_dim": 512,
+        "dropout": 0.4,
+        "lr": 0.0005,
+        "epochs": 30,
+        "batch_size": 32
+      },
+      "train_metrics": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "accuracy": 1.0
+      },
+      "val_metrics": {
+        "precision": 0.4375,
+        "recall": 0.3888888888888889,
+        "f1": 0.4117647058823529,
+        "accuracy": 0.7894736842105263
+      }
+    },
+    {
+      "model_name": "transfinn",
+      "label_col": "victim_blaming_gt",
+      "task_type": "binary",
+      "params": {
+        "ngram_range": [
+          1,
+          2
+        ],
+        "max_features": 10000,
+        "min_df": 2,
+        "hidden_dim": 512,
+        "dropout": 0.4,
+        "lr": 0.0005,
+        "epochs": 30,
+        "batch_size": 32
+      },
+      "train_metrics": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "accuracy": 1.0
+      },
+      "val_metrics": {
+        "precision": 0.25,
+        "recall": 0.2222222222222222,
+        "f1": 0.23529411764705882,
+        "accuracy": 0.7263157894736842
+      }
+    }
+  ],
+  "model_path": "/models/framing_ml/victim_blaming__transfinn.joblib"
+}

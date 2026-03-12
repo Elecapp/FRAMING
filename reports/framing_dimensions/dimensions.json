@@ -1,0 +1,107 @@
+{
+  "metadata": {
+    "total_articles": 318,
+    "generated_at": "2026-03-12 01:31:22",
+    "input_file": "/data/processed/LOC_v2_event_detection_framing.csv"
+  },
+  "stats": {
+    "victim_blaming": {
+      "total_positive": 27,
+      "total_negative": 291,
+      "rate": 0.08490566037735849,
+      "ratio_mean": 0.008612648247702862,
+      "ratio_std": 0.031679999442636095,
+      "ratio_median": 0.0,
+      "ratio_min": 0.0,
+      "ratio_max": 0.2
+    },
+    "justification": {
+      "total_positive": 153,
+      "total_negative": 165,
+      "rate": 0.4811320754716981,
+      "ratio_mean": 0.06521858309491932,
+      "ratio_std": 0.08300203870490001,
+      "ratio_median": 0.05,
+      "ratio_min": 0.0,
+      "ratio_max": 0.6
+    },
+    "tone": {
+      "counts": {
+        "neutro": 181,
+        "emotivo": 92,
+        "sensazionalistico": 45
+      },
+      "distribution": {
+        "neutro": 0.5691823899371069,
+        "emotivo": 0.2893081761006289,
+        "sensazionalistico": 0.14150943396226415
+      },
+      "emo_ratio_mean": 0.03230760962009866,
+      "emo_ratio_std": 0.0674203040808829,
+      "sens_ratio_mean": 0.023496400324778146,
+      "sens_ratio_std": 0.05050058872651255
+    }
+  },
+  "correlations": {
+    "victim_blaming_x_justification": 0.00021301254962434398,
+    "victim_blaming_x_emo_tone": -0.051350947270339835,
+    "justification_x_sens_tone": 0.029145944317374058,
+    "emo_ratio_x_sens_ratio": 0.1525456789651724
+  },
+  "agreement": {
+    "victim_blaming": {
+      "regex_spacy": {
+        "rate": 0.9968553459119497,
+        "kappa": 0.9800976342470897
+      },
+      "spacy_stanza": {
+        "rate": 0.9968553459119497,
+        "kappa": 0.9794174757281553
+      },
+      "regex_stanza": {
+        "rate": 0.9937106918238994,
+        "kappa": 0.9595316874522779
+      },
+      "all_three": {
+        "rate": 0.9937106918238994,
+        "kappa": null
+      }
+    },
+    "justification": {
+      "regex_spacy": {
+        "rate": 0.949685534591195,
+        "kappa": 0.8996093287557713
+      },
+      "spacy_stanza": {
+        "rate": 0.8805031446540881,
+        "kappa": 0.7636242713508861
+      },
+      "regex_stanza": {
+        "rate": 0.9308176100628931,
+        "kappa": 0.8607095926412616
+      },
+      "all_three": {
+        "rate": 0.8805031446540881,
+        "kappa": null
+      }
+    },
+    "tone": {
+      "regex_spacy": {
+        "rate": 0.9968553459119497,
+        "kappa": 0.9944968417409362
+      },
+      "spacy_stanza": {
+        "rate": 0.9591194968553459,
+        "kappa": 0.9294310441952169
+      },
+      "regex_stanza": {
+        "rate": 0.9559748427672956,
+        "kappa": 0.9239130434782609
+      },
+      "all_three": {
+        "rate": 0.9559748427672956,
+        "kappa": null
+      }
+    }
+  }
+}

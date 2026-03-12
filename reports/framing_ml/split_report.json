@@ -1,0 +1,53 @@
+{
+  "n_fas": 634,
+  "n_train": 443,
+  "n_val": 95,
+  "n_test": 96,
+  "label_distribution": {
+    "train": {
+      "victim_blaming_gt": {
+        "0": 0.792,
+        "1": 0.208
+      },
+      "perp_justified_gt": {
+        "0": 0.664,
+        "1": 0.336
+      },
+      "tone_label_gt": {
+        "neutro": 0.517,
+        "emotivo": 0.255,
+        "sensazionalistico": 0.228
+      }
+    },
+    "val": {
+      "victim_blaming_gt": {
+        "0": 0.811,
+        "1": 0.189
+      },
+      "perp_justified_gt": {
+        "0": 0.632,
+        "1": 0.368
+      },
+      "tone_label_gt": {
+        "neutro": 0.516,
+        "emotivo": 0.253,
+        "sensazionalistico": 0.232
+      }
+    },
+    "test": {
+      "victim_blaming_gt": {
+        "0": 0.844,
+        "1": 0.156
+      },
+      "perp_justified_gt": {
+        "0": 0.646,
+        "1": 0.354
+      },
+      "tone_label_gt": {
+        "neutro": 0.51,
+        "emotivo": 0.26,
+        "sensazionalistico": 0.229
+      }
+    }
+  }
+}

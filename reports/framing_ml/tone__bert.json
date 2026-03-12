@@ -1,0 +1,99 @@
+{
+  "task_name": "tone",
+  "label_col": "tone_label_gt",
+  "task_type": "multiclass",
+  "model_name": "bert",
+  "text_col": "text_linguistic",
+  "best_config": {
+    "learning_rate": 2e-05,
+    "num_train_epochs": 5,
+    "weight_decay": 0.01,
+    "train_batch_size": 4,
+    "eval_batch_size": 8
+  },
+  "val_metrics": {
+    "loss": 1.015559434890747,
+    "accuracy": 0.5894736842105263,
+    "macro_f1": 0.5453817702791711,
+    "macro_precision": 0.5534591194968553,
+    "macro_recall": 0.5398629148629149,
+    "runtime": 1.0267,
+    "samples_per_second": 92.526,
+    "steps_per_second": 11.687
+  },
+  "test_metrics": {
+    "accuracy": 0.6458333333333334,
+    "macro_f1": 0.6297188188214679,
+    "macro_precision": 0.6233766233766235,
+    "macro_recall": 0.6395052566481138
+  },
+  "search_results": [
+    {
+      "model_name": "bert",
+      "label_col": "tone_label_gt",
+      "task_type": "multiclass",
+      "params": {
+        "learning_rate": 2e-05,
+        "num_train_epochs": 3,
+        "weight_decay": 0.01,
+        "train_batch_size": 4,
+        "eval_batch_size": 8
+      },
+      "val_metrics": {
+        "loss": 0.9809674024581909,
+        "accuracy": 0.5578947368421052,
+        "macro_f1": 0.3898478835978836,
+        "macro_precision": 0.5153049482163407,
+        "macro_recall": 0.41393527107812816,
+        "runtime": 1.0246,
+        "samples_per_second": 92.715,
+        "steps_per_second": 11.711
+      }
+    },
+    {
+      "model_name": "bert",
+      "label_col": "tone_label_gt",
+      "task_type": "multiclass",
+      "params": {
+        "learning_rate": 3e-05,
+        "num_train_epochs": 3,
+        "weight_decay": 0.01,
+        "train_batch_size": 4,
+        "eval_batch_size": 8
+      },
+      "val_metrics": {
+        "loss": 1.0003483295440674,
+        "accuracy": 0.5157894736842106,
+        "macro_f1": 0.22685185185185186,
+        "macro_precision": 0.17192982456140352,
+        "macro_recall": 0.3333333333333333,
+        "runtime": 1.0279,
+        "samples_per_second": 92.419,
+        "steps_per_second": 11.674
+      }
+    },
+    {
+      "model_name": "bert",
+      "label_col": "tone_label_gt",
+      "task_type": "multiclass",
+      "params": {
+        "learning_rate": 2e-05,
+        "num_train_epochs": 5,
+        "weight_decay": 0.01,
+        "train_batch_size": 4,
+        "eval_batch_size": 8
+      },
+      "val_metrics": {
+        "loss": 1.015559434890747,
+        "accuracy": 0.5894736842105263,
+        "macro_f1": 0.5453817702791711,
+        "macro_precision": 0.5534591194968553,
+        "macro_recall": 0.5398629148629149,
+        "runtime": 1.0267,
+        "samples_per_second": 92.526,
+        "steps_per_second": 11.687
+      }
+    }
+  ],
+  "model_path": "/models/framing_ml/tone__bert/final_model"
+}

@@ -1,0 +1,10 @@
+dimension,pair,cohen_kappa,n_samples
+vb,a_vs_b,0.809,634
+vb,a_vs_c,0.717,634
+vb,b_vs_c,0.706,634
+pj,a_vs_b,0.879,634
+pj,a_vs_c,0.838,634
+pj,b_vs_c,0.851,634
+tone,a_vs_b,0.851,634
+tone,a_vs_c,0.883,634
+tone,b_vs_c,0.821,634

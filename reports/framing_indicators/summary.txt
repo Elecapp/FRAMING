@@ -1,0 +1,43 @@
+======================================================================
+FRAMING INDICATORS — DESCRIPTIVE ANALYSIS
+======================================================================
+Generated : 2026-03-12 01:31:16
+Input     : /data/processed/LOC_v2_event_detection_framing.csv
+Articles  : 318
+
+----------------------------------------------------------------------
+VICTIM AGENCY
+----------------------------------------------------------------------
+  alta  : 41 (12.9%)
+  media : 95 (29.9%)
+  bassa : 182 (57.2%)
+Agency index  : mean=-0.329 ± 0.587  [-1.000, 1.000]  median=-0.333
+Passive ratio : mean=0.095 ± 0.196  [0.000, 1.000]  median=0.000
+Object ratio  : mean=0.516 ± 0.359  [0.000, 1.000]  median=0.500
+Role entropy  : mean=0.381 ± 0.345  [-0.000, 1.000]  median=0.512
+Avg roles     : subj_active=0.99  subj_passive=0.38  object=1.87
+
+----------------------------------------------------------------------
+NARRATIVE FOCUS
+----------------------------------------------------------------------
+  vittima     : 107 (33.6%)
+  carnefice   : 90 (28.3%)
+  bilanciato  : 121 (38.1%)
+Victim score : mean=2.197 ± 2.429  [0.000, 19.900]  median=1.500
+Perp score   : mean=1.947 ± 1.814  [0.000, 15.600]  median=1.700
+
+----------------------------------------------------------------------
+CORRELATIONS
+----------------------------------------------------------------------
+  agency_idx_x_victim_score                    : +0.029
+  agency_idx_x_perp_score                      : -0.030
+  passive_ratio_x_perp_score                   : +0.062
+  entropy_x_agency_idx                         : +0.076
+  agency_idx_x_victim_blaming                  : -0.011
+  agency_idx_x_justification                   : -0.027
+  victim_focus_x_emo_tone                      : -0.025
+  perp_focus_x_sens_tone                       : -0.029
+
+======================================================================
+DONE
+======================================================================

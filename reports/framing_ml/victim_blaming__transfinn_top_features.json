@@ -1,0 +1,125 @@
+{
+  "task": "victim_blaming",
+  "top_features": [
+    {
+      "feature": "venne",
+      "weight": 0.5238096117973328
+    },
+    {
+      "feature": "motivo",
+      "weight": 0.5225129127502441
+    },
+    {
+      "feature": "rivolta",
+      "weight": 0.5221120715141296
+    },
+    {
+      "feature": "maldestro",
+      "weight": 0.5216390490531921
+    },
+    {
+      "feature": "femminile",
+      "weight": 0.5213677287101746
+    },
+    {
+      "feature": "emesso",
+      "weight": 0.5171954035758972
+    },
+    {
+      "feature": "cesena",
+      "weight": 0.5169387459754944
+    },
+    {
+      "feature": "emotivo",
+      "weight": 0.515535831451416
+    },
+    {
+      "feature": "sull",
+      "weight": 0.5143189430236816
+    },
+    {
+      "feature": "verdetto",
+      "weight": 0.5126124024391174
+    },
+    {
+      "feature": "suicidarsi",
+      "weight": 0.5117478370666504
+    },
+    {
+      "feature": "tentativo",
+      "weight": 0.5116734504699707
+    },
+    {
+      "feature": "soli",
+      "weight": 0.5113215446472168
+    },
+    {
+      "feature": "dello",
+      "weight": 0.5109993815422058
+    },
+    {
+      "feature": "ricordando",
+      "weight": 0.5109042525291443
+    },
+    {
+      "feature": "concessione",
+      "weight": 0.5106182098388672
+    },
+    {
+      "feature": "eravamo",
+      "weight": 0.5105831027030945
+    },
+    {
+      "feature": "mille",
+      "weight": 0.5105684995651245
+    },
+    {
+      "feature": "burrascosa",
+      "weight": 0.5105677247047424
+    },
+    {
+      "feature": "intervenuti",
+      "weight": 0.5105476975440979
+    },
+    {
+      "feature": "poche",
+      "weight": 0.5104467272758484
+    },
+    {
+      "feature": "rapporti",
+      "weight": 0.5103928446769714
+    },
+    {
+      "feature": "la",
+      "weight": 0.5101005434989929
+    },
+    {
+      "feature": "seguiva",
+      "weight": 0.5100435614585876
+    },
+    {
+      "feature": "inizialmente",
+      "weight": 0.510016143321991
+    },
+    {
+      "feature": "volevo",
+      "weight": 0.5099135637283325
+    },
+    {
+      "feature": "premeditato",
+      "weight": 0.5099009871482849
+    },
+    {
+      "feature": "intervenire",
+      "weight": 0.5098440051078796
+    },
+    {
+      "feature": "emotivi",
+      "weight": 0.5097968578338623
+    },
+    {
+      "feature": "ferita",
+      "weight": 0.5097185969352722
+    }
+  ]
+}

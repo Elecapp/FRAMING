@@ -1,0 +1,9 @@
+pair,correlation
+agency_idx_x_victim_score,0.0293714758873221
+agency_idx_x_perp_score,-0.030083950650491194
+passive_ratio_x_perp_score,0.06157851749195671
+entropy_x_agency_idx,0.07649629577709255
+agency_idx_x_victim_blaming,-0.010756662193483481
+agency_idx_x_justification,-0.02655677460977331
+victim_focus_x_emo_tone,-0.024793811716124842
+perp_focus_x_sens_tone,-0.028578991798062066

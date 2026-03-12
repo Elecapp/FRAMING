@@ -1,0 +1,125 @@
+{
+  "task": "perpetrator_justification",
+  "top_features": [
+    {
+      "feature": "emotivo",
+      "weight": 0.5302675366401672
+    },
+    {
+      "feature": "motivo",
+      "weight": 0.5257730484008789
+    },
+    {
+      "feature": "il femminicidio",
+      "weight": 0.5238454341888428
+    },
+    {
+      "feature": "dello scorso",
+      "weight": 0.5212728977203369
+    },
+    {
+      "feature": "attesa di",
+      "weight": 0.5204864144325256
+    },
+    {
+      "feature": "pena per",
+      "weight": 0.5199733972549438
+    },
+    {
+      "feature": "serena",
+      "weight": 0.5186563730239868
+    },
+    {
+      "feature": "abbraccio",
+      "weight": 0.518608033657074
+    },
+    {
+      "feature": "belle",
+      "weight": 0.5181297063827515
+    },
+    {
+      "feature": "per una",
+      "weight": 0.5180582404136658
+    },
+    {
+      "feature": "prossima udienza",
+      "weight": 0.5177884101867676
+    },
+    {
+      "feature": "il piccolo",
+      "weight": 0.5173832774162292
+    },
+    {
+      "feature": "_age_ giovanna",
+      "weight": 0.5170109868049622
+    },
+    {
+      "feature": "in gran",
+      "weight": 0.5169275403022766
+    },
+    {
+      "feature": "verdetto",
+      "weight": 0.5168902277946472
+    },
+    {
+      "feature": "femminile",
+      "weight": 0.5168797969818115
+    },
+    {
+      "feature": "la telefonata",
+      "weight": 0.5168545842170715
+    },
+    {
+      "feature": "crescita",
+      "weight": 0.5167409777641296
+    },
+    {
+      "feature": "vescovo",
+      "weight": 0.5164763331413269
+    },
+    {
+      "feature": "nella vita",
+      "weight": 0.5162310600280762
+    },
+    {
+      "feature": "certamente",
+      "weight": 0.5161357522010803
+    },
+    {
+      "feature": "ragazze",
+      "weight": 0.516045093536377
+    },
+    {
+      "feature": "così il",
+      "weight": 0.5160167813301086
+    },
+    {
+      "feature": "nasce",
+      "weight": 0.5160002112388611
+    },
+    {
+      "feature": "il vescovo",
+      "weight": 0.5159986019134521
+    },
+    {
+      "feature": "vita per",
+      "weight": 0.5158693194389343
+    },
+    {
+      "feature": "fermo di",
+      "weight": 0.5158259272575378
+    },
+    {
+      "feature": "pistola la",
+      "weight": 0.5156800150871277
+    },
+    {
+      "feature": "problema",
+      "weight": 0.5156612396240234
+    },
+    {
+      "feature": "persone",
+      "weight": 0.5156334638595581
+    }
+  ]
+}

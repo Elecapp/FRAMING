@@ -1,0 +1,6 @@
+{
+  "char_limit": 4000,
+  "max_sentences": 20,
+  "sent_threshold": 0.5,
+  "article_ratio": 0.05
+}

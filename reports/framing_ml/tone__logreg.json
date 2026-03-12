@@ -1,0 +1,194 @@
+{
+  "task_name": "tone",
+  "label_col": "tone_label_gt",
+  "task_type": "multiclass",
+  "model_name": "logreg",
+  "text_col": "text_ml",
+  "best_config": {
+    "ngram_range": [
+      1,
+      2
+    ],
+    "max_features": 10000,
+    "min_df": 2,
+    "C": 1.0,
+    "alpha": 1.0
+  },
+  "val_metrics": {
+    "accuracy": 0.5578947368421052,
+    "macro_f1": 0.5568936877076412,
+    "macro_precision": 0.5610095389507154,
+    "macro_recall": 0.5753710575139146
+  },
+  "test_metrics": {
+    "accuracy": 0.6354166666666666,
+    "macro_f1": 0.6305984372022108,
+    "macro_precision": 0.627102288392611,
+    "macro_recall": 0.6512183055040198
+  },
+  "search_results": [
+    {
+      "model_name": "logreg",
+      "label_col": "tone_label_gt",
+      "task_type": "multiclass",
+      "params": {
+        "ngram_range": [
+          1,
+          1
+        ],
+        "max_features": 10000,
+        "min_df": 2,
+        "C": 0.5,
+        "alpha": 1.0
+      },
+      "train_metrics": {
+        "accuracy": 0.9413092550790068,
+        "macro_f1": 0.9404370900272337,
+        "macro_precision": 0.9273342670401493,
+        "macro_recall": 0.9603095680747114
+      },
+      "val_metrics": {
+        "accuracy": 0.5157894736842106,
+        "macro_f1": 0.5090409929631395,
+        "macro_precision": 0.5211575211575211,
+        "macro_recall": 0.5269016697588126
+      }
+    },
+    {
+      "model_name": "logreg",
+      "label_col": "tone_label_gt",
+      "task_type": "multiclass",
+      "params": {
+        "ngram_range": [
+          1,
+          1
+        ],
+        "max_features": 10000,
+        "min_df": 2,
+        "C": 1.0,
+        "alpha": 1.0
+      },
+      "train_metrics": {
+        "accuracy": 0.9729119638826185,
+        "macro_f1": 0.9724538143016405,
+        "macro_precision": 0.9652750650062134,
+        "macro_recall": 0.9806880251343912
+      },
+      "val_metrics": {
+        "accuracy": 0.5263157894736842,
+        "macro_f1": 0.5187739463601532,
+        "macro_precision": 0.5301448064605959,
+        "macro_recall": 0.533704390847248
+      }
+    },
+    {
+      "model_name": "logreg",
+      "label_col": "tone_label_gt",
+      "task_type": "multiclass",
+      "params": {
+        "ngram_range": [
+          1,
+          1
+        ],
+        "max_features": 10000,
+        "min_df": 2,
+        "C": 2.0,
+        "alpha": 1.0
+      },
+      "train_metrics": {
+        "accuracy": 0.9977426636568849,
+        "macro_f1": 0.997802176616316,
+        "macro_precision": 0.9970760233918128,
+        "macro_recall": 0.9985443959243087
+      },
+      "val_metrics": {
+        "accuracy": 0.5263157894736842,
+        "macro_f1": 0.5192185007974482,
+        "macro_precision": 0.527960927960928,
+        "macro_recall": 0.533704390847248
+      }
+    },
+    {
+      "model_name": "logreg",
+      "label_col": "tone_label_gt",
+      "task_type": "multiclass",
+      "params": {
+        "ngram_range": [
+          1,
+          2
+        ],
+        "max_features": 10000,
+        "min_df": 2,
+        "C": 1.0,
+        "alpha": 1.0
+      },
+      "train_metrics": {
+        "accuracy": 0.9864559819413092,
+        "macro_f1": 0.9865101459334534,
+        "macro_precision": 0.9821314966946035,
+        "macro_recall": 0.9912663755458516
+      },
+      "val_metrics": {
+        "accuracy": 0.5578947368421052,
+        "macro_f1": 0.5568936877076412,
+        "macro_precision": 0.5610095389507154,
+        "macro_recall": 0.5753710575139146
+      }
+    },
+    {
+      "model_name": "logreg",
+      "label_col": "tone_label_gt",
+      "task_type": "multiclass",
+      "params": {
+        "ngram_range": [
+          1,
+          2
+        ],
+        "max_features": 10000,
+        "min_df": 2,
+        "C": 2.0,
+        "alpha": 1.0
+      },
+      "train_metrics": {
+        "accuracy": 0.9977426636568849,
+        "macro_f1": 0.997802176616316,
+        "macro_precision": 0.9970760233918128,
+        "macro_recall": 0.9985443959243087
+      },
+      "val_metrics": {
+        "accuracy": 0.5578947368421052,
+        "macro_f1": 0.5554558398412218,
+        "macro_precision": 0.5565383565383565,
+        "macro_recall": 0.5753710575139146
+      }
+    },
+    {
+      "model_name": "logreg",
+      "label_col": "tone_label_gt",
+      "task_type": "multiclass",
+      "params": {
+        "ngram_range": [
+          1,
+          2
+        ],
+        "max_features": 20000,
+        "min_df": 2,
+        "C": 2.0,
+        "alpha": 1.0
+      },
+      "train_metrics": {
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "macro_precision": 1.0,
+        "macro_recall": 1.0
+      },
+      "val_metrics": {
+        "accuracy": 0.5578947368421052,
+        "macro_f1": 0.5501683501683501,
+        "macro_precision": 0.557174532784289,
+        "macro_recall": 0.5611987219130076
+      }
+    }
+  ],
+  "model_path": "/models/framing_ml/tone__logreg.joblib"
+}

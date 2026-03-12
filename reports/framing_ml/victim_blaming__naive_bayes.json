@@ -1,0 +1,140 @@
+{
+  "task_name": "victim_blaming",
+  "label_col": "victim_blaming_gt",
+  "task_type": "binary",
+  "model_name": "naive_bayes",
+  "text_col": "text_ml",
+  "best_config": {
+    "ngram_range": [
+      1,
+      1
+    ],
+    "max_features": 10000,
+    "min_df": 2,
+    "C": 1.0,
+    "alpha": 0.5
+  },
+  "val_metrics": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "accuracy": 0.8105263157894737
+  },
+  "test_metrics": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "accuracy": 0.84375
+  },
+  "search_results": [
+    {
+      "model_name": "naive_bayes",
+      "label_col": "victim_blaming_gt",
+      "task_type": "binary",
+      "params": {
+        "ngram_range": [
+          1,
+          1
+        ],
+        "max_features": 10000,
+        "min_df": 2,
+        "C": 1.0,
+        "alpha": 0.5
+      },
+      "train_metrics": {
+        "precision": 1.0,
+        "recall": 0.010869565217391304,
+        "f1": 0.021505376344086023,
+        "accuracy": 0.7945823927765236
+      },
+      "val_metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "accuracy": 0.8105263157894737
+      }
+    },
+    {
+      "model_name": "naive_bayes",
+      "label_col": "victim_blaming_gt",
+      "task_type": "binary",
+      "params": {
+        "ngram_range": [
+          1,
+          1
+        ],
+        "max_features": 10000,
+        "min_df": 2,
+        "C": 1.0,
+        "alpha": 1.0
+      },
+      "train_metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "accuracy": 0.7923250564334086
+      },
+      "val_metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "accuracy": 0.8105263157894737
+      }
+    },
+    {
+      "model_name": "naive_bayes",
+      "label_col": "victim_blaming_gt",
+      "task_type": "binary",
+      "params": {
+        "ngram_range": [
+          1,
+          2
+        ],
+        "max_features": 10000,
+        "min_df": 2,
+        "C": 1.0,
+        "alpha": 0.5
+      },
+      "train_metrics": {
+        "precision": 1.0,
+        "recall": 0.043478260869565216,
+        "f1": 0.08333333333333333,
+        "accuracy": 0.801354401805869
+      },
+      "val_metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "accuracy": 0.8105263157894737
+      }
+    },
+    {
+      "model_name": "naive_bayes",
+      "label_col": "victim_blaming_gt",
+      "task_type": "binary",
+      "params": {
+        "ngram_range": [
+          1,
+          2
+        ],
+        "max_features": 10000,
+        "min_df": 2,
+        "C": 1.0,
+        "alpha": 1.0
+      },
+      "train_metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "accuracy": 0.7923250564334086
+      },
+      "val_metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "accuracy": 0.8105263157894737
+      }
+    }
+  ],
+  "model_path": "/models/framing_ml/victim_blaming__naive_bayes.joblib"
+}

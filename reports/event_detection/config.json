@@ -1,0 +1,56 @@
+{
+  "inputs": {
+    "train": "/data/processed/EDS_preprocessed.csv",
+    "loc": "/data/processed/LOC_v2_preprocessed.csv"
+  },
+  "seed": 42,
+  "split": {
+    "train": 0.6,
+    "val": 0.2,
+    "test": 0.2
+  },
+  "tfidf": {
+    "max_features": 50000,
+    "ngram_range": [
+      1,
+      2
+    ],
+    "min_df": 3,
+    "max_df": 0.9
+  },
+  "grids": {
+    "C": [
+      0.25,
+      0.5,
+      1.0,
+      2.0,
+      4.0
+    ],
+    "alpha": [
+      1e-05,
+      0.0001,
+      0.001,
+      0.01
+    ]
+  },
+  "best_model": {
+    "type": "svm",
+    "params": "C=1.0",
+    "threshold": -0.05194500335487651,
+    "score_type": "decision"
+  },
+  "val_metrics": {
+    "accuracy": 0.8074866310160428,
+    "precision": 0.5833333333333334,
+    "recall": 0.6363636363636364,
+    "f1": 0.6086956521739131,
+    "roc_auc": 0.8167315638906549
+  },
+  "test_metrics": {
+    "accuracy": 0.7887700534759359,
+    "precision": 0.5473684210526316,
+    "recall": 0.5909090909090909,
+    "f1": 0.5683060109289617,
+    "roc_auc": 0.8305785123966941
+  }
+}

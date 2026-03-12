@@ -1,0 +1,145 @@
+{
+  "task_name": "tone",
+  "label_col": "tone_label_gt",
+  "task_type": "multiclass",
+  "model_name": "xgboost",
+  "text_col": "text_ml",
+  "best_config": {
+    "ngram_range": [
+      1,
+      1
+    ],
+    "max_features": 5000,
+    "min_df": 2,
+    "n_estimators": 100,
+    "max_depth": 3,
+    "learning_rate": 0.1
+  },
+  "val_metrics": {
+    "accuracy": 0.5894736842105263,
+    "macro_f1": 0.502448729721457,
+    "macro_precision": 0.6010101010101011,
+    "macro_recall": 0.48899711399711393
+  },
+  "test_metrics": {
+    "accuracy": 0.59375,
+    "macro_f1": 0.527920227920228,
+    "macro_precision": 0.5977878330819507,
+    "macro_recall": 0.5115027829313543
+  },
+  "search_results": [
+    {
+      "model_name": "xgboost",
+      "label_col": "tone_label_gt",
+      "task_type": "multiclass",
+      "params": {
+        "ngram_range": [
+          1,
+          1
+        ],
+        "max_features": 5000,
+        "min_df": 2,
+        "n_estimators": 100,
+        "max_depth": 3,
+        "learning_rate": 0.1
+      },
+      "train_metrics": {
+        "accuracy": 0.9977426636568849,
+        "macro_f1": 0.9976154087948058,
+        "macro_precision": 0.9985507246376812,
+        "macro_recall": 0.9966996699669967
+      },
+      "val_metrics": {
+        "accuracy": 0.5894736842105263,
+        "macro_f1": 0.502448729721457,
+        "macro_precision": 0.6010101010101011,
+        "macro_recall": 0.48899711399711393
+      }
+    },
+    {
+      "model_name": "xgboost",
+      "label_col": "tone_label_gt",
+      "task_type": "multiclass",
+      "params": {
+        "ngram_range": [
+          1,
+          2
+        ],
+        "max_features": 5000,
+        "min_df": 2,
+        "n_estimators": 100,
+        "max_depth": 3,
+        "learning_rate": 0.1
+      },
+      "train_metrics": {
+        "accuracy": 0.9977426636568849,
+        "macro_f1": 0.9976154087948058,
+        "macro_precision": 0.9985507246376812,
+        "macro_recall": 0.9966996699669967
+      },
+      "val_metrics": {
+        "accuracy": 0.5684210526315789,
+        "macro_f1": 0.4665014564584149,
+        "macro_precision": 0.578078078078078,
+        "macro_recall": 0.45995670995670995
+      }
+    },
+    {
+      "model_name": "xgboost",
+      "label_col": "tone_label_gt",
+      "task_type": "multiclass",
+      "params": {
+        "ngram_range": [
+          1,
+          1
+        ],
+        "max_features": 10000,
+        "min_df": 2,
+        "n_estimators": 200,
+        "max_depth": 4,
+        "learning_rate": 0.05
+      },
+      "train_metrics": {
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "macro_precision": 1.0,
+        "macro_recall": 1.0
+      },
+      "val_metrics": {
+        "accuracy": 0.5473684210526316,
+        "macro_f1": 0.45102540557086007,
+        "macro_precision": 0.5370370370370371,
+        "macro_recall": 0.44761389404246543
+      }
+    },
+    {
+      "model_name": "xgboost",
+      "label_col": "tone_label_gt",
+      "task_type": "multiclass",
+      "params": {
+        "ngram_range": [
+          1,
+          2
+        ],
+        "max_features": 10000,
+        "min_df": 2,
+        "n_estimators": 200,
+        "max_depth": 4,
+        "learning_rate": 0.05
+      },
+      "train_metrics": {
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "macro_precision": 1.0,
+        "macro_recall": 1.0
+      },
+      "val_metrics": {
+        "accuracy": 0.5684210526315789,
+        "macro_f1": 0.47413632119514476,
+        "macro_precision": 0.5502164502164503,
+        "macro_recall": 0.4670428777571635
+      }
+    }
+  ],
+  "model_path": "/models/framing_ml/tone__xgboost.joblib"
+}

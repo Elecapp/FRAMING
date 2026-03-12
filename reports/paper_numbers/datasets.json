@@ -1,0 +1,47 @@
+{
+  "eds": {
+    "total": 1869,
+    "n_positive": 441,
+    "n_negative": 1428
+  },
+  "fas": {
+    "total": 634,
+    "label_distribution": {
+      "victim_blaming": {
+        "counts": {
+          "0": 509,
+          "1": 125
+        },
+        "proportions": {
+          "0": 0.8028,
+          "1": 0.1972
+        }
+      },
+      "perpetrator_justification": {
+        "counts": {
+          "0": 416,
+          "1": 218
+        },
+        "proportions": {
+          "0": 0.6562,
+          "1": 0.3438
+        }
+      },
+      "tone": {
+        "counts": {
+          "neutro": 327,
+          "emotivo": 162,
+          "sensazionalistico": 145
+        },
+        "proportions": {
+          "neutro": 0.5158,
+          "emotivo": 0.2555,
+          "sensazionalistico": 0.2287
+        }
+      }
+    }
+  },
+  "loc_v2": {
+    "total": 3295
+  }
+}

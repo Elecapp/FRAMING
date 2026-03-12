@@ -1,0 +1,5 @@
+pair,correlation
+victim_blaming_x_justification,0.00021301254962434398
+victim_blaming_x_emo_tone,-0.051350947270339835
+justification_x_sens_tone,0.029145944317374058
+emo_ratio_x_sens_ratio,0.1525456789651724

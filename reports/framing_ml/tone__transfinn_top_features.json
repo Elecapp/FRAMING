@@ -1,0 +1,125 @@
+{
+  "task": "tone",
+  "top_features": [
+    {
+      "feature": "che questo",
+      "weight": 0.518791675567627
+    },
+    {
+      "feature": "sia un",
+      "weight": 0.5181359052658081
+    },
+    {
+      "feature": "sandra",
+      "weight": 0.517345666885376
+    },
+    {
+      "feature": "della musica",
+      "weight": 0.5164746046066284
+    },
+    {
+      "feature": "una calibro",
+      "weight": 0.5164737105369568
+    },
+    {
+      "feature": "inflitto",
+      "weight": 0.5161731839179993
+    },
+    {
+      "feature": "influenzata la",
+      "weight": 0.5153505802154541
+    },
+    {
+      "feature": "rendere",
+      "weight": 0.5151956081390381
+    },
+    {
+      "feature": "processuale",
+      "weight": 0.5150889158248901
+    },
+    {
+      "feature": "territorio",
+      "weight": 0.5147044658660889
+    },
+    {
+      "feature": "notizia della",
+      "weight": 0.5145470499992371
+    },
+    {
+      "feature": "davanti un",
+      "weight": 0.5145198106765747
+    },
+    {
+      "feature": "assassino di",
+      "weight": 0.5144258141517639
+    },
+    {
+      "feature": "giorni in",
+      "weight": 0.5144065618515015
+    },
+    {
+      "feature": "ventina di",
+      "weight": 0.5142751336097717
+    },
+    {
+      "feature": "chilometri di",
+      "weight": 0.5140645503997803
+    },
+    {
+      "feature": "avvocato antonio",
+      "weight": 0.5139174461364746
+    },
+    {
+      "feature": "in pochi",
+      "weight": 0.5138770937919617
+    },
+    {
+      "feature": "ha una",
+      "weight": 0.513799786567688
+    },
+    {
+      "feature": "quel che",
+      "weight": 0.5137665867805481
+    },
+    {
+      "feature": "condotte",
+      "weight": 0.5137224197387695
+    },
+    {
+      "feature": "aumentano",
+      "weight": 0.5136922597885132
+    },
+    {
+      "feature": "con accusa",
+      "weight": 0.5135000944137573
+    },
+    {
+      "feature": "ostacolo",
+      "weight": 0.5132957100868225
+    },
+    {
+      "feature": "alle nell",
+      "weight": 0.5132750272750854
+    },
+    {
+      "feature": "dell udienza",
+      "weight": 0.5132592916488647
+    },
+    {
+      "feature": "non mai",
+      "weight": 0.5130490064620972
+    },
+    {
+      "feature": "killer",
+      "weight": 0.5130371451377869
+    },
+    {
+      "feature": "prima aveva",
+      "weight": 0.5130370259284973
+    },
+    {
+      "feature": "dei figli",
+      "weight": 0.512995183467865
+    }
+  ]
+}

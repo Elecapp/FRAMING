@@ -1,0 +1,194 @@
+{
+  "task_name": "tone",
+  "label_col": "tone_label_gt",
+  "task_type": "multiclass",
+  "model_name": "linear_svm",
+  "text_col": "text_ml",
+  "best_config": {
+    "ngram_range": [
+      1,
+      1
+    ],
+    "max_features": 10000,
+    "min_df": 2,
+    "C": 2.0,
+    "alpha": 1.0
+  },
+  "val_metrics": {
+    "accuracy": 0.6105263157894737,
+    "macro_f1": 0.588126159554731,
+    "macro_precision": 0.5950026164311879,
+    "macro_recall": 0.5868635332921047
+  },
+  "test_metrics": {
+    "accuracy": 0.6041666666666666,
+    "macro_f1": 0.5675680312372403,
+    "macro_precision": 0.5884229289802044,
+    "macro_recall": 0.5564131106988249
+  },
+  "search_results": [
+    {
+      "model_name": "linear_svm",
+      "label_col": "tone_label_gt",
+      "task_type": "multiclass",
+      "params": {
+        "ngram_range": [
+          1,
+          1
+        ],
+        "max_features": 10000,
+        "min_df": 2,
+        "C": 0.5,
+        "alpha": 1.0
+      },
+      "train_metrics": {
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "macro_precision": 1.0,
+        "macro_recall": 1.0
+      },
+      "val_metrics": {
+        "accuracy": 0.6,
+        "macro_f1": 0.57414305928557,
+        "macro_precision": 0.5893199233716474,
+        "macro_recall": 0.5729746444032159
+      }
+    },
+    {
+      "model_name": "linear_svm",
+      "label_col": "tone_label_gt",
+      "task_type": "multiclass",
+      "params": {
+        "ngram_range": [
+          1,
+          1
+        ],
+        "max_features": 10000,
+        "min_df": 2,
+        "C": 1.0,
+        "alpha": 1.0
+      },
+      "train_metrics": {
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "macro_precision": 1.0,
+        "macro_recall": 1.0
+      },
+      "val_metrics": {
+        "accuracy": 0.6,
+        "macro_f1": 0.5791919191919191,
+        "macro_precision": 0.5864741641337387,
+        "macro_recall": 0.5800608122036693
+      }
+    },
+    {
+      "model_name": "linear_svm",
+      "label_col": "tone_label_gt",
+      "task_type": "multiclass",
+      "params": {
+        "ngram_range": [
+          1,
+          1
+        ],
+        "max_features": 10000,
+        "min_df": 2,
+        "C": 2.0,
+        "alpha": 1.0
+      },
+      "train_metrics": {
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "macro_precision": 1.0,
+        "macro_recall": 1.0
+      },
+      "val_metrics": {
+        "accuracy": 0.6105263157894737,
+        "macro_f1": 0.588126159554731,
+        "macro_precision": 0.5950026164311879,
+        "macro_recall": 0.5868635332921047
+      }
+    },
+    {
+      "model_name": "linear_svm",
+      "label_col": "tone_label_gt",
+      "task_type": "multiclass",
+      "params": {
+        "ngram_range": [
+          1,
+          2
+        ],
+        "max_features": 10000,
+        "min_df": 2,
+        "C": 1.0,
+        "alpha": 1.0
+      },
+      "train_metrics": {
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "macro_precision": 1.0,
+        "macro_recall": 1.0
+      },
+      "val_metrics": {
+        "accuracy": 0.6,
+        "macro_f1": 0.5712195043502034,
+        "macro_precision": 0.5723158828748891,
+        "macro_recall": 0.5704493918779633
+      }
+    },
+    {
+      "model_name": "linear_svm",
+      "label_col": "tone_label_gt",
+      "task_type": "multiclass",
+      "params": {
+        "ngram_range": [
+          1,
+          2
+        ],
+        "max_features": 10000,
+        "min_df": 2,
+        "C": 2.0,
+        "alpha": 1.0
+      },
+      "train_metrics": {
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "macro_precision": 1.0,
+        "macro_recall": 1.0
+      },
+      "val_metrics": {
+        "accuracy": 0.6105263157894737,
+        "macro_f1": 0.5843382807668522,
+        "macro_precision": 0.5843382807668522,
+        "macro_recall": 0.5843382807668522
+      }
+    },
+    {
+      "model_name": "linear_svm",
+      "label_col": "tone_label_gt",
+      "task_type": "multiclass",
+      "params": {
+        "ngram_range": [
+          1,
+          2
+        ],
+        "max_features": 20000,
+        "min_df": 2,
+        "C": 2.0,
+        "alpha": 1.0
+      },
+      "train_metrics": {
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "macro_precision": 1.0,
+        "macro_recall": 1.0
+      },
+      "val_metrics": {
+        "accuracy": 0.6105263157894737,
+        "macro_f1": 0.581080368906456,
+        "macro_precision": 0.5858585858585859,
+        "macro_recall": 0.5772521129663987
+      }
+    }
+  ],
+  "model_path": "/models/framing_ml/tone__linear_svm.joblib"
+}

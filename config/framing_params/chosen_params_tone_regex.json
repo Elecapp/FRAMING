@@ -1,0 +1,6 @@
+{
+  "char_limit": 4000,
+  "max_sentences": 20,
+  "emo_threshold": 0.7,
+  "sens_threshold": 0.5
+}
